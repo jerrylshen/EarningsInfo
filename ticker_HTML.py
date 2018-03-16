@@ -2,7 +2,9 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import re
 
-tickers_input = input("Please enter tickers: ")
+print("Please enter tickers separated by spaces and press enter")
+print("Suggestion: try typing in 'aapl,' 'twtr,' and/or 'fb'")
+tickers_input = input("")
 tickers = []
 
 for e in tickers_input.split():
@@ -33,5 +35,7 @@ for e in data_list:
     except:
         print(e[0] + " hasn't released an earnings report date yet")
     file.close()
+
+print("Check check your directory for a .txt file names 'stocks'")
 
 
