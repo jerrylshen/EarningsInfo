@@ -8,6 +8,6 @@ This repo only contain the orignal Python script used as the basis/inspiration f
 Just type any number of stock tickers (doesn't matter casing) separated by spaces
 
 # Built With
-Backend: Python, Flask
+Backend: Python, Flask  
 Frontend: bootstrap, HTML, CSS, JS (only for Google Analytics)
 
