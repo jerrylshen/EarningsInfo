@@ -1,4 +1,4 @@
-# HTML-Stock-Earnings-Date-Scraper
+# Stock Earnings Date HTML Scraper
 HTML scraper made using Python to get the earnings dates of companie's tickers from Zachs.com
 
 EDIT: I made it into a Flask app, http://www.earningsinfo.net/   
